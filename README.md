@@ -1,5 +1,11 @@
 # linux-settings
 
+## ssh
+
+### ssh keys
+
+follow [this guide](https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys) to do ssh keys
+
 ## vim
 
 ### settings
