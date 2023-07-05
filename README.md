@@ -17,11 +17,13 @@ vim ~/.vimrc
 
 ### theme
 
-Atom's One Dark Theme - [main link](https://vimcolorschemes.com/joshdick/onedark.vim) - [github link](https://vimcolorschemes.com/joshdick/onedark.vim)
+#### Simple Setup
 
-Some help with installing: [stackexchange might help](https://apple.stackexchange.com/questions/243078/where-is-the-folder-with-color-schemes-used-by-vim)
+Visit the [GitHub repo for Atom's One Dark Theme](https://github.com/joshdick/onedark.vim/tree/main).
 
-You may have to create the `~/.vim/colors` and `~/.vim/autoload` folders, can run:
+In the repo, download specifically `colors/onedark.vim` and `autoload/onedark.vim`.
+
+Make the `~/.vim/colors` and `~/.vim/autoload` folders by running:
 ```
 mkdir -p ~/.vim/colors
 ```
@@ -29,9 +31,16 @@ and
 ```
 mkdir -p ~/.vim/autoload
 ```
-and use `sftp` to put the files in. You really only need the files in the github in `colors/onedark.vim` and `autoload/onedark.vim`
 
-#### better syntax highlighting
+Use `sftp` to put the files in. First, `lcd` to the current local directory. Then, `put` each `onedark.vim` file in the folders you just made.
+
+#### other one dark setup tools
+
+Atom's One Dark Theme - [main link](https://vimcolorschemes.com/joshdick/onedark.vim) - [github link](https://github.com/joshdick/onedark.vim/tree/main)
+
+Some help with installing: [stackexchange might help](https://apple.stackexchange.com/questions/243078/where-is-the-folder-with-color-schemes-used-by-vim)
+
+### better syntax highlighting
 
 Install `vim-polyglot` from [the github](https://github.com/sheerun/vim-polyglot), can copy paste this link
 
