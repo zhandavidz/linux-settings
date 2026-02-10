@@ -44,3 +44,5 @@ endif
 syntax enable
 set background=dark
 colorscheme onedark
+
+set relativenumber
